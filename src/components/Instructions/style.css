@@ -1,0 +1,28 @@
+.instructions {
+    margin: 20px;
+    margin-block: 40px;
+}
+
+.instructions-name::before {
+    content: "";
+    display: block;
+    background-color: var(--stone150);
+    max-width: 1024px;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.instructions-step {
+    padding: 0;
+    padding-left: 20px;
+}
+
+.instructions-step li {
+    padding-left: 15px;
+}
+
+@media(min-width: 650px) {
+    .instructions {
+        margin: 30px;
+    }
+ }
